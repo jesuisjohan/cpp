@@ -4,7 +4,6 @@ float x[100], y[100];
 float do_dai(int i, int j)
 {
     return sqrt(pow(x[i] - x[j], 2) + pow(y[i] - y[j], 2));
-    // Khong biet tai sao lai loi cho nay
 }
 void nhapsl(int n)
 {
